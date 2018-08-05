@@ -1,0 +1,42 @@
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+canvas {
+  width: 100%;
+}
+
+.bits {
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  color: #ffffff;
+  background-color: rgb(19, 107, 189);
+  border: 2px solid rgb(19, 107, 189);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  padding: 0.625em 1.25em;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: rgb(46, 130, 209);
+  border: 2px solid rgb(46, 130, 209);
+  cursor: pointer;
+}
+
+.results {
+  display: none;
+}
