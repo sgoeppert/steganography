@@ -15,3 +15,9 @@ The number of bytes is variable, for example taking 6 bytes from image B leaves 
 
 Image C: 11011110
 
+## Planned features
+* image upload for carrier and payload image
+* embedding text messages
+* create analysis page that lets users upload an image, view the bits and extract another image
+* splitting off "bitwise breakdown" into analysis page
+* extracting text messages
